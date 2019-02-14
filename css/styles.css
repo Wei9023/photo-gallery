@@ -1,19 +1,46 @@
 body {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 100px;
+  
 }
 
 div {
     float: left;
-    margin: 40px;
+    margin: 10px 10px;
+    
   }
   
 img {
     height: 200px;
-    float: left;
+    background-color: rgb(175, 179, 230);
+    border-radius: 15px;
+    padding: 5px;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
   
 h1 {
     text-align: center;
+    line-height: 150px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.5em;
+    font-weight: 800;
+    /* grid-column: 1/5;
+    grid-row: 1/2; */
+}
+
+select {
+  margin-left: 100px;
+  font-size: 1em;
+  /* grid-column: 1/2;
+  grid-row: 2/3; */
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.uniwhal {
+  /* grid-column: 1/2;
+  grid-row: 3/4; */
 }
